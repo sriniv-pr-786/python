@@ -1,0 +1,26 @@
+#Srinivas Prasad Nityakalyanam
+#My initials in block-letters
+
+#S-code
+
+print(" SSS ")
+print("S    S")
+print("S")
+print(" SSS ")
+print("     S")
+print("S    S")
+print(" SSS ")
+print("  ")
+print("  ")
+print("  ")
+
+#N-code
+
+print("N   N")
+print("NN  N")
+print("N N N")
+print("N  NN")
+print("N   N")
+print("N   N")
+print("N   N")
+
