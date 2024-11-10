@@ -1,1 +1,66 @@
+#Game 
+print("\nLet's find protists!")
+
+print("\n a) Scoop a bowl of water from a puddle, lake, river, or ocean.") 
+
+print("\n b) Keep it in warm, in sunlight for 3 weeks.")
+
+
+print("\n c) Answer these q's, 1 for yes, 0 for no, NO SPACE")
+
+#Inputs
+
+
+Green = input("\nNotice any green?")
+
+
+Tissue = input("\nCan the water cross thin tissue- paper?")
+
+
+
+Dark = input("\nAny changes after 3 days in dark?")
+
+
+
+Mushroom = input("\nDrop mushrooms into the water. Any changes in 3 days?")
+
+
+#List and Dict
+
+
+list = [Mushroom, Dark, Green, Tissue]
+
+
+
+list_2 = {"Protists": 0, "Photo-trophs": 0, "Hetero-trophs": 0}
+
+
+# If's
+
+
+if str(1) in list:
+
+  list_2["Protists"] += 1
+
+    
+
+if int(str(Dark)) or int(str(Green)):
+  
+  list_2["Photo-trophs"] += 1
+
+
+if int(str(Mushroom)):
+
+  list_2["Hetero-trophs"] += 1
+
+
+#for loop
+
+
+for key, value in list_2.items():
+  print(key + ": " + str(value == 1))
+
+print(list_2)
+
+
 
