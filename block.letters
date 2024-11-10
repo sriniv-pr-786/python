@@ -13,9 +13,7 @@ print(" SSS ")
 print("     S")
 print("S    S")
 print(" SSS ")
-print("  ")
-print("  ")
-print("  ")
+print("\n  ")
 
 #N-code
 
